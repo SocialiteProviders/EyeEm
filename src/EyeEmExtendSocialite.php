@@ -6,7 +6,9 @@ use SocialiteProviders\Manager\SocialiteWasCalled;
 class EyeEmExtendSocialite
 {
     /**
-     * Execute the provider.
+     * Register the provider.
+     *
+     * @param \SocialiteProviders\Manager\SocialiteWasCalled $socialiteWasCalled
      */
     public function handle(SocialiteWasCalled $socialiteWasCalled)
     {
