@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\EyeEm;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
